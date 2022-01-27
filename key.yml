@@ -1,0 +1,35 @@
+# Key Value
+Fruit: Banana
+Meat: Chicken
+Course: Clarusway
+# a list
+- 1
+- false 
+- 'a string'
+# a dictionary
+key1: val1
+key2: val2
+key3: val3
+
+# A list of dictionary
+  - name: Aaron
+    age: 35 
+  - name: James
+    age: 35 
+
+# Conventional Block Format uses hyphen+space to begin a new item in a specified list.
+--- # Course 
+ - AWS/Devops 
+ - Web Developer
+ - QA Tester 
+ 
+ # Inline format is delimited with comma and space and the items are enclosed in JSON (similar to JSON).
+--- # course list
+ - [AWS/DevOps, Web Developer, QA tester]
+
+# Folded text converts newlines to spaces and removes the leading whitespace.
+
+- {name: John MC, age: 18}
+- name:James Garcia 
+  age:19
+ 
